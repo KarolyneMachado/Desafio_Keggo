@@ -16,6 +16,6 @@
   },
   "cypress-cucumber-preprocessor": {
     "nonGlobalStepDefinations": true,
-    "stepDefinitions": "cypress/e2e/PageObjects"
+    "stepDefinitions": "cypress/support/StepDefinitions"
   }
 }
