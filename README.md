@@ -56,5 +56,20 @@ Para configurar o ambiente e executar os testes, você precisará instalar as se
 
 1. **Abrir o Cypress:**
 
+   Para abrir a interface gráfica do Cypress e interagir com os testes manualmente, use o seguinte comando:
+
    ```bash
    npx cypress open
+   ```
+
+   Para executar todos os testes em modo headless (sem abrir a interface gráfica), use o comando:
+
+   ```bash
+   npx cypress run
+   ```
+
+   Para rodar apenas um teste específico, use o comando:
+
+   ```bash
+   npx cypress run --spec "caminho/para/o/arquivo.spec.js"
+   ```
