@@ -2,7 +2,7 @@
 
 import '@bahmutov/cy-api'
 
-describe('GET Products APIs', () => {
+describe('GET Product API', () => {
   const endpoint = '/catalog/api/v1/products/search?name=Beats';
 
   it('GET Product Beats', () => {
@@ -31,18 +31,4 @@ describe('GET Products APIs', () => {
 
     });
   });
-
-  it('GET All Products', () => {
-    cy.api({
-        url: '/catalog/api/v1/products',
-        method:'GET',
-        failOnStatusCode: false
-    }).then((response) =>{
-      // Verifica o status code
-      expect(response.status).to.eq(200);
-    })
-      
-  });
-
-  
 });

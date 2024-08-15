@@ -30,11 +30,12 @@ Teste o site [Advantage Online Shopping](https://advantageonlineshopping.com/#/)
 Documente e teste as APIs disponíveis em [Advantage Online Shopping API Documentation](https://www.advantageonlineshopping.com/api/docs/):
 
 1. **Verificar lista de produtos:**
+ - **API Endpoint:** `/catalog/api/v1/products/search`
    - Certifique-se de que a lista exibe apenas os produtos conforme sua busca.
    - Valide o status code da resposta do serviço.
 
 2. **Atualizar imagem de um produto (PUT):**
-   - **API Endpoint:** `https://www.advantageonlineshopping.com/catalog/api/v1/product/image/{userId}/{source}/{color}`
+   - **API Endpoint:** `/catalog/api/v1/product/image/{userId}/{source}/{color}`
    - Verifique se a imagem do produto foi atualizada corretamente.
    - Confirme o id da nova imagem inserida.
    - Valide o status code da resposta do serviço.
