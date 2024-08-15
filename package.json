@@ -1,0 +1,17 @@
+{
+  "name": "projectkeggo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karolyne Silva",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.1.2",
+    "@bahmutov/cy-api": "^2.2.3",
+    "cypress": "^13.13.3",
+    "cypress-file-upload": "^5.0.8"
+  }
+}
