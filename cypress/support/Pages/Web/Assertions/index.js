@@ -12,9 +12,9 @@ class Assertions {
     }
 
     validationImageSearchedProduct() {
-        cy.get('[data-ng-src="/catalog/fetchImage?image_id=2201"]')
-            .should('be.visible')
-            .click({ force: true });
+        cy.get('p.roboto-regular.ng-binding')
+        .contains('BEATS STUDIO 2 OVER-EAR MATTE BLACK HEADPHONES')
+        .click();
     }
 
     validationPaymentScreen() {
