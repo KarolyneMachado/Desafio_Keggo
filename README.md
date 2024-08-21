@@ -73,3 +73,9 @@ Para configurar o ambiente e executar os testes, você precisará instalar as se
    ```bash
    npx cypress run --spec "caminho/para/o/arquivo.spec.js"
    ```
+
+   Para rodar todos os testes com gravação e uma chave específica:
+
+   ```bash
+    npx cypress run --record --key 67e0f571-0177-481d-8453-294f48d9b8ab 
+   ```

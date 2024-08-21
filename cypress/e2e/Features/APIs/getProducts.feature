@@ -1,12 +1,12 @@
 Feature: Request Method GET API Product
 
     Scenario: Request Endpoint Seach Product
-        Given that I need to send a Request for "Beats"
+        Given that I need to send a Request for Beats
         When send request method get
         Then expected status code 200 sucess
 
     Scenario: Product not found
-        Given that I need to send a Request 404 for "NotFound"
+        Given that I need to send a Request 404 for NotFound
         When send request method get return code 404
         Then expected status code 404 not found
 

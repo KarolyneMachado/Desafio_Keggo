@@ -7,7 +7,7 @@ Feature: Request Method POST API Product
 
     Scenario: Unauthorized request
         Given that I need to send a Request without authorization
-        When send request method POST
+        When send request method POST not authorization
         Then expected code 401 unauthorized
 
     Scenario: Product not found

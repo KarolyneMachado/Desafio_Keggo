@@ -14,7 +14,6 @@ class AddProductCart {
         cy.get('p.roboto-regular.ng-binding')
         .contains('BEATS STUDIO 2 OVER-EAR MATTE BLACK HEADPHONES')
         .click();
-
     }
 
     inputNameProduct(){
