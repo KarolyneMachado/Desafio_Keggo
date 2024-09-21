@@ -1,7 +1,7 @@
 import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
 import '@bahmutov/cy-api'
-import RequestProductPOST from '../../Pages/APIs/postProduct';
-import Assertions from '../../Pages/APIs/Assertions'
+import RequestProductPOST from '../../APIs/postProduct';
+import Assertions from '../../APIs/Assertions'
 
 const endpoint = '/catalog/api/v1/product/image/821194126/%23FFFFF/WHITE';
 let token;

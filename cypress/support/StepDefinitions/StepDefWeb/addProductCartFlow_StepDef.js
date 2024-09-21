@@ -1,6 +1,6 @@
 import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps";
-import AddProductCart from '../../Pages/Web/AddProductCartFlow';
-import Assertions from '../../Pages/Web/Assertions'
+import AddProductCart from '../../Pages/AddProductCartFlow'
+import Assertions from '../../Pages/Assertions'
 
 
 Given('Home page is opened', () => {

@@ -1,6 +1,6 @@
 import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
-import RequestProductGET from '../../Pages/APIs/getProduct';
-import Assertions from '../../Pages/APIs/Assertions'
+import RequestProductGET from '../../APIs/getProduct'
+import Assertions from '../../APIs/Assertions'
 import '@bahmutov/cy-api'
 
 let endpoint;

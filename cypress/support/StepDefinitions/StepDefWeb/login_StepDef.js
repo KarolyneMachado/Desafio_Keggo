@@ -1,6 +1,6 @@
 import { Given, When, Then } from "cypress-cucumber-preprocessor/steps";
-import Login from '../../Pages/Web/Login';
-import Assertions from '../../Pages/Web/Assertions'
+import Login from '../../Pages/Login';
+import Assertions from '../../Pages/Assertions'
 
 Given('Login page', () => {
     Login.visitSite();
