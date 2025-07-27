@@ -3,7 +3,7 @@ class Assertions {
     validationLoginSucess() {
         cy.get('.hi-user.containMiniTitle.ng-binding')
             .should('be.visible')
-            .and('contain.text', 'Karolyne');
+            .and('contain.text', 'Karol');
     }
 
     validationMessageError() {

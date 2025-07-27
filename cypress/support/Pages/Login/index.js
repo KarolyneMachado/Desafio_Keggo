@@ -19,7 +19,7 @@ class Login {
     }
 
     loginValidCredentials() {
-        cy.get('input[name="username"]').type('Karolyne');
+        cy.get('input[name="username"]').type('Karol');
         cy.get('input[name="password"]').type('Teste01');
 
         cy.get('#sign_in_btn').click();
